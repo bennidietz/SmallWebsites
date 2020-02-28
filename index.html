@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Analysetool Check App</title>
+    <title>Burnout Fragebogen</title>
     <!-- Das neueste kompilierte und minimierte CSS -->
     <script src="dateien_fuer_analysetool/extern/jquery.min.js"></script>
     <script src="dateien_fuer_analysetool/extern/jquery-1.11.1.min.js"></script>
@@ -17,9 +17,7 @@
     <link rel="stylesheet" href="dateien_fuer_analysetool/extern/bootstrap-theme.min.css">
 
     <style>
-        body {
-            background: #172154;
-        }
+        body {}
         
         .box-1 {
             margin: 0 auto;
@@ -43,7 +41,8 @@
         
         .btn-one span {
             transition: all 0.3s;
-            color: FCBF00;
+            color: black;
+            font-size: 2em;
         }
         
         .btn-one::before {
@@ -60,13 +59,13 @@
             border-bottom-width: 1px;
             border-top-style: solid;
             border-bottom-style: solid;
-            border-top-color: #FCBF00;
-            border-bottom-color: #FCBF00;
+            border-top-color: black;
+            border-bottom-color: black;
             transform: scale(0.1, 1);
         }
         
         h3 {
-            color: #FCBF00;
+            color: black;
         }
         
         .btn-one:hover span {
@@ -87,7 +86,7 @@
             height: 100%;
             z-index: 1;
             transition: all 0.3s;
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(252, 191, 0, 0.3);
         }
         
         .btn-one:hover::after {
@@ -98,7 +97,7 @@
 
     <body>
         <div class="box-1">
-            <h3>Vielen Dank für Ihre Teilnahme!<br><br>Hier befinden sich die Fragebögen:</h3>
+            <h1>Vielen Dank für Ihre Teilnahme!<br><br>Hier befinden sich die Fragebögen:</h1>
         </div>
         <!-- Hover #1 -->
         <div class="box-1" onclick="window.location = 'http://bit.ly/burnout_b'">
